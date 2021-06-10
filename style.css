@@ -272,17 +272,16 @@ nav li a {
     flex-direction: column;
     gap: 10px;
   }
-
   section, #pricing {
     padding-top: 145px;
-  }
-
-  .fas {
-    display: none;
   }
 
   .description {
     text-align: center;
     width: 100%;
+  }
+
+  .fas {
+    display: none;
   }
 }
