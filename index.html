@@ -13,24 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8c8bdca6ab.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async></script>
   </head>
   <body>
-    <header>
-      <img src="images/trombones-logo.png">
-      <nav>
+    <header id="header">
+      <img src="images/trombones-logo.png" id="header-img" alt="logo">
+      <nav id="nav-bar">
         <ol>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#demo">How It Works</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#demo" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
         </ol>
       </nav>
     </header>
     <main>
       <section id="get-started" class="small-margin">
         <h1>Handcrafted, home-made masterpieces</h1>
-        <form action="">
-          <input type="email" placeholder="Enter your email address"><br>
-          <input type="submit" value="Get Started">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input type="email" placeholder="Enter your email address" id="email" name="email"><br>
+          <input type="submit" value="Get Started" id="submit">
         </form>
       </section>
       <section id="features">
@@ -62,7 +63,7 @@
       <section id="demo">
         <!-- TODO make responsive -->
         <div class="video-container">
-          <iframe width="560" height="349" 
+          <iframe width="560" height="349" id="video"
           src="https://www.youtube.com/embed/y8Yv4pnO7qc"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
